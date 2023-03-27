@@ -18,4 +18,12 @@ const typeDefs = gql`
     link: String
     title: String!
   }
+
+  type Query {
+  }
+
+  type Mutation {
+  }
 `;
+
+module.exports = typeDefs;
